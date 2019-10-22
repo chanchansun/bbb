@@ -1,17 +1,28 @@
+<!--
+ * @Author: your name
+ * @Date: 2019-10-21 10:00:44
+ * @LastEditTime: 2019-10-21 14:02:25
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /c:\Users\Administrator\Desktop\bbb\bbb\public\index.html
+ -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <!--移动端的适配-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0，user-scalable=no">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico"><!--在router的index.js中base指定-->
+    <link rel="stylesheet" href="<%= BASE_URL %>css/common.css">
+    <link rel="stylesheet" href="<%= BASE_URL %>css/iconfont/iconfont.css">
     <title>apro</title>
   </head>
   <body>
     <noscript>
       <strong>We're sorry but apro doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
-    <div id="app"></div>
+    <div id="app"></div><!--所有的渲染都在app上-->
     <!-- built files will be auto injected -->
   </body>
 </html>
